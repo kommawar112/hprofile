@@ -1,0 +1,8 @@
+name: Hprodile Actions
+on: workflow_dispatch
+jobs: 
+  Testing:
+    run-on: ubuntu-latest
+    steps:
+      - name: Testing Workflow
+        run: echo "Workflow"
